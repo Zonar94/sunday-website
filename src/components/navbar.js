@@ -33,17 +33,8 @@ export default function ButtonAppBar() {
 
     return (
         <div className={classes.root}>
-            <AppBar position="static" style={{ background: '#1b1b1b' }}>
+            <AppBar position="center" style={{ background: '#1b1b1b' }}>
                 <Toolbar>
-
-                    <Link to="/buildE/" className={classes.title}>
-                        <img src={Logo}
-
-                            width="110px"
-                            height="100%"
-                            className="d-inline-block align-top"
-                            alt="" />
-                    </Link>
 
 
                     <a href="https://www.youtube.com/embed/channel/UC_bD4QllKWtnZnqElOjdBfQ">
@@ -60,6 +51,15 @@ export default function ButtonAppBar() {
                     </a><a href="https://www.youtube.com/embed/channel/UC_bD4QllKWtnZnqElOjdBfQ">
                         <Button className={classes.button} color="inherit">ABOUT</Button>
                     </a>
+                    <Link to="/buildE/" className={classes.title}>
+                        <img src={Logo}
+
+                            width="120px"
+                            height="100%"
+                            margin-left="35%"
+                            className="center"
+                            alt="" />
+                    </Link>
                 </Toolbar>
             </AppBar>
         </div>
