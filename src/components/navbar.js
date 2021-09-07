@@ -47,7 +47,7 @@ export default function ButtonAppBar() {
                         <Button className={classes.button} color="inherit">VIDEOS</Button>
                     </a>
                     <a href="https://www.youtube.com/embed/channel/UC_bD4QllKWtnZnqElOjdBfQ">
-                        <Button className={classes.button} color="inherit">cONTACT</Button>
+                        <Button className={classes.button} color="inherit">CONTACT</Button>
                     </a><a href="https://www.youtube.com/embed/channel/UC_bD4QllKWtnZnqElOjdBfQ">
                         <Button className={classes.button} color="inherit">ABOUT</Button>
                     </a>
@@ -56,8 +56,7 @@ export default function ButtonAppBar() {
 
                             width="120px"
                             height="100%"
-                            margin-left="35%"
-                            className="center"
+                            className="cd-inline-block align-top"
                             alt="" />
                     </Link>
                 </Toolbar>
